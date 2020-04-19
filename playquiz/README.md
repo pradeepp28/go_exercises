@@ -11,10 +11,13 @@ create a game package to read csv file and stores Questions and Answers in []Qui
 
 2. create func NewQuiz to return []Quiz after reading from csv file
 
-	1. open file using os.Open
-	2. create csv reader using file pointer
-	3. use Read function
-	4. Load the Questions and Answers in Quiz struct and append it to slice
+	2.1. open file using os.Open
+	
+	2.2. create csv reader using file pointer
+	
+	2.3. use Read function
+	
+	2.4. Load the Questions and Answers in Quiz struct and append it to slice
 
 main function call game.NewQuiz function to get the Question and answers
 use the questions in []Quiz and compare the given answer with user input
