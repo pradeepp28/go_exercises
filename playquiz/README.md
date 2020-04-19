@@ -20,7 +20,7 @@ main function call game.NewQuiz function to get the Question and answers
 use the questions in []Quiz and compare the given answer with user input
 
 At the end of the quiz the program should output the total number of questions correct and how many questions there were in total. Questions given invalid answers are considered incorrect.
-
+```
 What is 5+5?
 10
 What is 1+1?
@@ -30,3 +30,4 @@ What is 8+3?
 
 
 You got 10/12 
+```
